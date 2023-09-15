@@ -4,7 +4,7 @@ import { HiHome } from "react-icons/hi";
 import Labs from "../Labs";
 
 ("use client");
-const sem4 = () => {
+const Sem4 = () => {
   const labs = [
     {
       subject: "Database Systems",
@@ -23,7 +23,6 @@ const sem4 = () => {
     },
   ];
   return (
-    
     <div>
       <div className="items-center flex justify-center text-center explore-breadcrumb dark:text-white text-white">
         <Breadcrumb
@@ -46,4 +45,4 @@ const sem4 = () => {
   );
 };
 
-export default sem4;
+export default Sem4;

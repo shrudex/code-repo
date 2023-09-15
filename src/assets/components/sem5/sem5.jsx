@@ -4,7 +4,7 @@ import { HiHome } from "react-icons/hi";
 import Labs from "../Labs";
 
 ("use client");
-const sem5 = () => {
+const Sem5 = () => {
   const labs = [
     {
       subject: "Deep Learning",
@@ -45,4 +45,4 @@ const sem5 = () => {
   );
 };
 
-export default sem5;
+export default Sem5;
