@@ -8,8 +8,10 @@ import About from "./assets/components/About";
 import Footer from './assets/components/Footer';
 
 import Sem3 from "./assets/components/sem3/Sem3";
-import Sem4 from "./assets/components/sem4/Sem4";
-import Sem5 from "./assets/components/sem5/Sem5";
+import Sem4 from './assets/components/sem4/sem4';
+import Sem5 from './assets/components/sem5/sem5';
+
+
 function App() {
 
   return (
