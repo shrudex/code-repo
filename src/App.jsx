@@ -27,6 +27,17 @@ import Questions from "./assets/components/Questions";
 import Answers from "./assets/components/Answers";
 
 import OopsWeek01 from "./assets/components/sem3/oops/OopsWeek01";
+import OopsWeek02 from "./assets/components/sem3/oops/OopsWeek02";
+import OopsWeek03 from "./assets/components/sem3/oops/OopsWeek03";
+import OopsWeek04 from "./assets/components/sem3/oops/OopsWeek04";
+import OopsWeek05 from "./assets/components/sem3/oops/OopsWeek05";
+import OopsWeek06 from "./assets/components/sem3/oops/OopsWeek06";
+import OopsWeek07 from "./assets/components/sem3/oops/OopsWeek07";
+import OopsWeek08 from "./assets/components/sem3/oops/OopsWeek08";
+import OopsWeek09 from "./assets/components/sem3/oops/OopsWeek09";
+import OopsWeek10 from "./assets/components/sem3/oops/OopsWeek10";
+import OopsWeek11 from "./assets/components/sem3/oops/OopsWeek11";
+
 function App() {
   return (
     <div className="App w-full h-auto" style={{ backgroundColor: "#EEEEEE" }}>
@@ -56,6 +67,16 @@ function App() {
         <Route path="/answers" element={<WT />} />
 
         <Route path="/oops/w1" element={<OopsWeek01 />} />
+        <Route path="/oops/w2" element={<OopsWeek02 />} />
+        <Route path="/oops/w3" element={<OopsWeek03 />} />
+        <Route path="/oops/w4" element={<OopsWeek04 />} />
+        <Route path="/oops/w5" element={<OopsWeek05 />} />
+        <Route path="/oops/w6" element={<OopsWeek06 />} />
+        <Route path="/oops/w7" element={<OopsWeek07 />} />
+        <Route path="/oops/w8" element={<OopsWeek08 />} />
+        <Route path="/oops/w9" element={<OopsWeek09 />} />
+        <Route path="/oops/w10" element={<OopsWeek10 />} />
+        <Route path="/oops/w11" element={<OopsWeek11 />} />
       </Routes>
       <Footer />
     </div>
