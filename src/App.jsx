@@ -38,9 +38,24 @@ import OopsWeek09 from "./assets/components/sem3/oops/OopsWeek09";
 import OopsWeek10 from "./assets/components/sem3/oops/OopsWeek10";
 import OopsWeek11 from "./assets/components/sem3/oops/OopsWeek11";
 
+import DaaWeek01 from "./assets/components/sem4/daa/DaaWeek01";
+import DaaWeek02 from "./assets/components/sem4/daa/DaaWeek02";
+import DaaWeek03 from "./assets/components/sem4/daa/DaaWeek03";
+import DaaWeek04 from "./assets/components/sem4/daa/DaaWeek04";
+import DaaWeek05 from "./assets/components/sem4/daa/DaaWeek05";
+import DaaWeek06 from "./assets/components/sem4/daa/DaaWeek06";
+import DaaWeek07 from "./assets/components/sem4/daa/DaaWeek07";
+import DaaWeek08 from "./assets/components/sem4/daa/DaaWeek08";
+import DaaWeek09 from "./assets/components/sem4/daa/DaaWeek09";
+import DaaWeek10 from "./assets/components/sem4/daa/DaaWeek10";
+import DaaWeek11 from "./assets/components/sem4/daa/DaaWeek11";
+
 function App() {
   return (
-    <div className="App w-full h-auto" style={{ backgroundColor: "#EEEEEE" }}>
+    <div
+      className="App w-full h-auto !overflow-hidden"
+      style={{ backgroundColor: "#EEEEEE" }}
+    >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -77,6 +92,18 @@ function App() {
         <Route path="/oops/w9" element={<OopsWeek09 />} />
         <Route path="/oops/w10" element={<OopsWeek10 />} />
         <Route path="/oops/w11" element={<OopsWeek11 />} />
+
+        <Route path="/daa/w1" element={<DaaWeek01 />} />
+        <Route path="/daa/w2" element={<DaaWeek02 />} />
+        <Route path="/daa/w3" element={<DaaWeek03 />} />
+        <Route path="/daa/w4" element={<DaaWeek04 />} />
+        <Route path="/daa/w5" element={<DaaWeek05 />} />
+        <Route path="/daa/w6" element={<DaaWeek06 />} />
+        <Route path="/daa/w7" element={<DaaWeek07 />} />
+        <Route path="/daa/w8" element={<DaaWeek08 />} />
+        <Route path="/daa/w9" element={<DaaWeek09 />} />
+        <Route path="/daa/w10" element={<DaaWeek10 />} />
+        <Route path="/daa/w11" element={<DaaWeek11 />} />
       </Routes>
       <Footer />
     </div>
