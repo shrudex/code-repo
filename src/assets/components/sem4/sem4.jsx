@@ -8,17 +8,17 @@ const Sem4 = () => {
   const labs = [
     {
       subject: "Database Systems",
-      sub: "DBS",
+      sub: "dbs",
       lang: "SQL",
     },
     {
       subject: "Design & Analysis of Algorithms",
-      sub: "DAA",
+      sub: "daa",
       lang: "C++",
     },
     {
       subject: "Machine Learning",
-      sub: "ML",
+      sub: "ml",
       lang: "Python, scikit-learn",
     },
   ];

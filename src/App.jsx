@@ -15,6 +15,14 @@ import DS from "./assets/components/sem3/DS";
 import OOPS from "./assets/components/sem3/OOPS";
 import IDA from "./assets/components/sem3/IDA";
 
+import DBS from "./assets/components/sem4/DBS";
+import ML from "./assets/components/sem4/ML";
+import DAA from "./assets/components/sem4/DAA";
+
+import DL from "./assets/components/sem5/DL";
+import OS from "./assets/components/sem5/OS";
+import WT from "./assets/components/sem5/WT";
+
 function App() {
 
   return (
@@ -32,6 +40,14 @@ function App() {
         <Route path='/ds' element={<DS/>}/>
         <Route path='/oops' element={<OOPS/>}/>
         <Route path='/ida' element={<IDA/>}/>
+
+        <Route path='/dbs' element={<DBS/>}/>
+        <Route path='/ml' element={<ML/>}/>
+        <Route path='/daa' element={<DAA/>}/>
+
+        <Route path='/dl' element={<DL/>}/>
+        <Route path='/os' element={<OS/>}/>
+        <Route path='/wt' element={<WT/>}/>
       </Routes>
       <Footer/>
     </div>

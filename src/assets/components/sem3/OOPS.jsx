@@ -36,8 +36,8 @@ const OOPS = () => {
       num: "Week 10",
     },
   ];
-  const n = 'Object Oriented Programming';
-  const sh = 'oops';
+  const n = "Object Oriented Programming";
+  const sh = "oops";
   return (
     <div>
       <div className="items-center flex justify-center text-center explore-breadcrumb dark:text-white text-white">
@@ -50,10 +50,14 @@ const OOPS = () => {
           </Breadcrumb.Item>
           <Breadcrumb.Item href="/explore">Explore</Breadcrumb.Item>
           <Breadcrumb.Item href="/sem3">Sem3</Breadcrumb.Item>
-          <Breadcrumb.Item href="/oops">Object Oriented Programming</Breadcrumb.Item>
+          <Breadcrumb.Item href="/oops">
+            Object Oriented Programming
+          </Breadcrumb.Item>
         </Breadcrumb>
       </div>
-      <WeekCard n={n} sh = {sh}/>
+      <div className="week-card">
+        <WeekCard n={n} sh={sh} />
+      </div>
     </div>
   );
 };

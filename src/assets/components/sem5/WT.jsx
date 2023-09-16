@@ -1,27 +1,44 @@
 import React from "react";
-import { Breadcrumb } from "flowbite-react";
+import { Breadcrumb } from  "flowbite-react";
 import { HiHome } from "react-icons/hi";
-import Labs from "../Labs";
+import WeekCard from "../WeekCard";
 
-("use client");
-const Sem5 = () => {
-  const labs = [
+const WT = () => {
+  const weeks = [
     {
-      subject: "Deep Learning",
-      sub: "dl",
-      lang: "Python, TensorFlow, Keras",
+      num: "Week 01",
     },
     {
-      subject: "Operating Systems",
-      sub: "os",
-      lang: "Linux, C",
+      num: "Week 02",
     },
     {
-      subject: "Web Technologies",
-      sub: "wt",
-      lang: "HTML, CSS, JavaScript, PHP",
+      num: "Week 03",
+    },
+    {
+      num: "Week 04",
+    },
+    {
+      num: "Week 05",
+    },
+    {
+      num: "Week 06",
+    },
+    {
+      num: "Week 07",
+    },
+    {
+      num: "Week 08",
+    },
+    {
+      num: "Week 09",
+    },
+    {
+      num: "Week 10",
     },
   ];
+
+  const n = "Web Technologies";
+  const sh = "wt";
   return (
     <div>
       <div className="items-center flex justify-center text-center explore-breadcrumb dark:text-white text-white">
@@ -34,15 +51,12 @@ const Sem5 = () => {
           </Breadcrumb.Item>
           <Breadcrumb.Item href="/explore">Explore</Breadcrumb.Item>
           <Breadcrumb.Item href="/sem5">Sem5</Breadcrumb.Item>
+          <Breadcrumb.Item href="/wt">{n}</Breadcrumb.Item>
         </Breadcrumb>
       </div>
-      <div className="flex justify-evenly gap-16 mx-16 mt-36 mb-28 flex-wrap semester-list">
-        {labs.map((l, index) => (
-          <Labs key={index} sub={l.sub} subject={l.subject} lang={l.lang} />
-        ))}
-      </div>
+      <WeekCard n={n} sh={sh} />
     </div>
   );
 };
 
-export default Sem5;
+export default WT;
