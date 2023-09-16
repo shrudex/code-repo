@@ -64,9 +64,7 @@ const OopsWeek01 = () => {
           <Breadcrumb.Item href="/oops">
             Object Oriented Programming
           </Breadcrumb.Item>
-          <Breadcrumb.Item href="/oops/w1">
-            Week 01
-          </Breadcrumb.Item>
+          <Breadcrumb.Item href="/oops/w1">Week 01</Breadcrumb.Item>
         </Breadcrumb>
       </div>
       <div className="accordion-div mt-20 mb-20">
@@ -75,18 +73,17 @@ const OopsWeek01 = () => {
             <Accordion.Panel
               className="flex flex-col justify-center items-center px-10 "
               key={qq.id[index]}
-              isOpen={index === openPanelIndex} 
+              isOpen={index === openPanelIndex}
               onToggle={() => setOpenPanelIndex(index)} // Handle panel toggle
-
             >
               <div className="accordion-panel w-3/4 justify-center bg-transparent">
                 <Accordion.Title className="bg-gray-900 text-lg text-white h-12 py-2 rounded-xl w-full text-center hover:bg-blue-800 hover:text-white hover:font-medium hover:text-xl">
                   {question}
                 </Accordion.Title>
-                <Accordion.Content className="rounded-xl !important !bg-transparent">
-                  <pre>
+                <Accordion.Content className="rounded-xl  !bg-transparent">
+                  <pre className="code overflow-x-auto scrolling-touch">
                     {" "}
-                    <code className="mb-2 text-black dark:text-black bg-transparent ht-text">
+                    <code className="mb-2 text-black dark:text-black bg-transparent max-w-md ht-text select-text">
                       {fileContents[index]}{" "}
                     </code>
                   </pre>
