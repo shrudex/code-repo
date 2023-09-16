@@ -6,7 +6,7 @@ import { HiHome } from "react-icons/hi";
 
 const About = () => {
   return (
-    <div className="px-4">
+    <div className="px-8">
       <div className="items-center flex justify-center text-center about-breadcrumb dark:text-white text-white">
         <Breadcrumb
           aria-label="Solid background breadcrumb example"
