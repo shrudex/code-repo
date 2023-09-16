@@ -1,15 +1,15 @@
-import './App.css'
-import {Routes, Route} from "react-router-dom";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./assets/components/Navbar";
 import Home from "./assets/components/Home";
 import Explore from "./assets/components/Explore";
 import About from "./assets/components/About";
-import Footer from './assets/components/Footer';
+import Footer from "./assets/components/Footer";
 
 import Sem3 from "./assets/components/sem3/Sem3";
-import Sem4 from './assets/components/sem4/sem4';
-import Sem5 from './assets/components/sem5/sem5';
+import Sem4 from "./assets/components/sem4/sem4";
+import Sem5 from "./assets/components/sem5/sem5";
 
 import DS from "./assets/components/sem3/DS";
 import OOPS from "./assets/components/sem3/OOPS";
@@ -23,35 +23,43 @@ import DL from "./assets/components/sem5/DL";
 import OS from "./assets/components/sem5/OS";
 import WT from "./assets/components/sem5/WT";
 
+import Questions from "./assets/components/Questions";
+import Answers from "./assets/components/Answers";
+
+import OopsWeek01 from "./assets/components/sem3/oops/OopsWeek01";
 function App() {
-
   return (
-    <div className='App w-full h-auto' style={{ backgroundColor: "#EEEEEE" }}>
-      <Navbar/>
+    <div className="App w-full h-auto" style={{ backgroundColor: "#EEEEEE" }}>
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/explore' element={<Explore/>}/> 
-        <Route path='/about' element={<About/>}/> 
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/about" element={<About />} />
 
-        <Route path='/sem3' element={<Sem3/>}/>
-        <Route path='/sem4' element={<Sem4/>}/>
-        <Route path='/sem5' element={<Sem5/>}/>
+        <Route path="/sem3" element={<Sem3 />} />
+        <Route path="/sem4" element={<Sem4 />} />
+        <Route path="/sem5" element={<Sem5 />} />
 
-        <Route path='/ds' element={<DS/>}/>
-        <Route path='/oops' element={<OOPS/>}/>
-        <Route path='/ida' element={<IDA/>}/>
+        <Route path="/ds" element={<DS />} />
+        <Route path="/oops" element={<OOPS />} />
+        <Route path="/ida" element={<IDA />} />
 
-        <Route path='/dbs' element={<DBS/>}/>
-        <Route path='/ml' element={<ML/>}/>
-        <Route path='/daa' element={<DAA/>}/>
+        <Route path="/dbs" element={<DBS />} />
+        <Route path="/ml" element={<ML />} />
+        <Route path="/daa" element={<DAA />} />
 
-        <Route path='/dl' element={<DL/>}/>
-        <Route path='/os' element={<OS/>}/>
-        <Route path='/wt' element={<WT/>}/>
+        <Route path="/dl" element={<DL />} />
+        <Route path="/os" element={<OS />} />
+        <Route path="/wt" element={<WT />} />
+
+        <Route path="/questions" element={<WT />} />
+        <Route path="/answers" element={<WT />} />
+
+        <Route path="/oops/w1" element={<OopsWeek01 />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
