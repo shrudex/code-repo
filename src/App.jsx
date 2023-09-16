@@ -50,6 +50,18 @@ import DaaWeek09 from "./assets/components/sem4/daa/DaaWeek09";
 import DaaWeek10 from "./assets/components/sem4/daa/DaaWeek10";
 import DaaWeek11 from "./assets/components/sem4/daa/DaaWeek11";
 
+import DsWeek01 from "./assets/components/sem3/ds/DsWeek01";
+import DsWeek02 from "./assets/components/sem3/ds/DsWeek02";
+import DsWeek03 from "./assets/components/sem3/ds/DsWeek03";
+import DsWeek04 from "./assets/components/sem3/ds/DsWeek04";
+import DsWeek05 from "./assets/components/sem3/ds/DsWeek05";
+import DsWeek06 from "./assets/components/sem3/ds/DsWeek06";
+import DsWeek07 from "./assets/components/sem3/ds/DsWeek07";
+import DsWeek08 from "./assets/components/sem3/ds/DsWeek08";
+import DsWeek09 from "./assets/components/sem3/ds/DsWeek09";
+import DsWeek10 from "./assets/components/sem3/ds/DsWeek10";
+import DsWeek11 from "./assets/components/sem3/ds/DsWeek11";
+
 function App() {
   return (
     <div
@@ -80,6 +92,18 @@ function App() {
 
         <Route path="/questions" element={<WT />} />
         <Route path="/answers" element={<WT />} />
+
+        <Route path="/ds/w1" element={<DsWeek01 />} />
+        <Route path="/ds/w2" element={<DsWeek02 />} />
+        <Route path="/ds/w3" element={<DsWeek03 />} />
+        <Route path="/ds/w4" element={<DsWeek04 />} />
+        <Route path="/ds/w5" element={<DsWeek05 />} />
+        <Route path="/ds/w6" element={<DsWeek06 />} />
+        <Route path="/ds/w7" element={<DsWeek07 />} />
+        <Route path="/ds/w8" element={<DsWeek08 />} />
+        <Route path="/ds/w9" element={<DsWeek09 />} />
+        <Route path="/ds/w10" element={<DsWeek10 />} />
+        <Route path="/ds/w11" element={<DsWeek11 />} />
 
         <Route path="/oops/w1" element={<OopsWeek01 />} />
         <Route path="/oops/w2" element={<OopsWeek02 />} />

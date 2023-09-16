@@ -6,23 +6,37 @@ import { Accordion } from "flowbite-react";
 import { Breadcrumb } from "flowbite-react";
 import { HiHome } from "react-icons/hi";
 
-const DsWeek01 = () => {
+const DsWeek02 = () => {
   const qq = {
-    week: "01",
+    week: "02",
     ques: [
-      "Breadth First Search Algorithm [BFS]",
-      "Depth First Search Algorithm [DFS]",
-      "Insertion Sort",
-      "Breadth First Search Algorithm [BFS] (Node beigns with 1)",
+      "Column Matrix",
+      "Diagonal Matrix",
+      "Lower Triangular Matrix",
+      "Row Major",
+      "Sparse Matrix",
+      "Tri Diagonal Matrix",
+      "Upper Triangular Matrix",
     ],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2005%2FQ1%20-%20BFS%20Algorithm.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2005%2FQ2%20-%20DFS%20Algorithm.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2005%2FQ3%20-%20Insertion%20Sort.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2005%2FQ4%20-%20BFS%20Algorithm.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FColumn-Matrix.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FDiagonalMatrix.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FLowerTriangularMatrix.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FRow-Major.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FSparseMatrix.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FTri-DiagonalMatrix.cpp/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/Data%20Structures%2FWeek%2002%2FUpperTriangularMatrix.cpp/raw?ref=main",
     ],
-    id: ["DS-L1-Q1", "DS-L1-Q2", "DS-L1-Q3", "DS-L1-Q4"],
+    id: [
+      "DS-L2-Q1",
+      "DS-L2-Q2",
+      "DS-L2-Q3",
+      "DS-L2-Q4",
+      "DS-L2-Q5",
+      "DS-L2-Q6",
+      "DS-L2-Q7",
+    ],
   };
 
   const [fileContents, setFileContents] = useState([]);
@@ -63,10 +77,8 @@ const DsWeek01 = () => {
           </Breadcrumb.Item>
           <Breadcrumb.Item href="/explore">Explore</Breadcrumb.Item>
           <Breadcrumb.Item href="/sem3">Sem3</Breadcrumb.Item>
-          <Breadcrumb.Item href="/ds">
-            Data Structures
-          </Breadcrumb.Item>
-          <Breadcrumb.Item href="/ds/w1">Week 01</Breadcrumb.Item>
+          <Breadcrumb.Item href="/ds">Data Structures</Breadcrumb.Item>
+          <Breadcrumb.Item href="/ds/w2">Week 02</Breadcrumb.Item>
         </Breadcrumb>
       </div>
       <div className="accordion-div mt-32 mb-32">
@@ -113,4 +125,4 @@ const DsWeek01 = () => {
   );
 };
 
-export default DsWeek01;
+export default DsWeek02;
