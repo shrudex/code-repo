@@ -11,6 +11,9 @@ import Sem3 from "./assets/components/sem3/Sem3";
 import Sem4 from './assets/components/sem4/sem4';
 import Sem5 from './assets/components/sem5/sem5';
 
+import DS from "./assets/components/sem3/DS";
+import OOPS from "./assets/components/sem3/OOPS";
+import IDA from "./assets/components/sem3/IDA";
 
 function App() {
 
@@ -25,6 +28,10 @@ function App() {
         <Route path='/sem3' element={<Sem3/>}/>
         <Route path='/sem4' element={<Sem4/>}/>
         <Route path='/sem5' element={<Sem5/>}/>
+
+        <Route path='/ds' element={<DS/>}/>
+        <Route path='/oops' element={<OOPS/>}/>
+        <Route path='/ida' element={<IDA/>}/>
       </Routes>
       <Footer/>
     </div>

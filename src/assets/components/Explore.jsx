@@ -20,6 +20,7 @@ const Explore = () => {
       },
     })
     .then((response) => {
+      console.log(response);
       const repoData = response.data;
       console.log("Repository Data:", repoData);
     })
@@ -47,7 +48,7 @@ const Explore = () => {
       lab2: "Object Oriented Programming",
       lab3: "Data Analytics",
     },
-    
+
     {
       semester: "4",
       lab1: "Database Systems",

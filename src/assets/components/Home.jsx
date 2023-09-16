@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-20">
+      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-20 sm:mb-24">
         <label
           htmlFor="helper-text"
           className="block mb-2 text-sm font-bold text-black dark:text-black text-center"
