@@ -17,7 +17,7 @@ const DaaWeek03 = () => {
     ],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2003%2FQ1%20-%20Selection%20Sort.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2003%2FQ1%20-%20SelectionSort.md/raw?ref=main",
       "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2003%2FQ2%20-%20Bubble%20Sort.md/raw?ref=main",
       "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2003%2FQ3%20-%20String%20Matching.md/raw?ref=main",
       "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2003%2FQ4%20-%20Matrix%20Multiplication.md/raw?ref=main",
