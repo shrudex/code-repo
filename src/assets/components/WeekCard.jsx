@@ -28,7 +28,7 @@ export default function WeekCard({ n, sh, questions }) {
         </span>
       </p>
       <div className="list-group-weeks h-fit flex-col flex ">
-        <div className="week-div flex justify-around mb-2">
+        <div className="week-div flex justify-around mb-2 sm:w-full">
           <NavLink
             to={urls[0]}
             className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
