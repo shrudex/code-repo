@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="sub-text max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <NavLink to="/" className="flex items-center">
           <img src="./think.png" className="h-8 mr-3" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-medium heading whitespace-nowrap dark:text-white">
             CodeRepo
           </span>
         </NavLink>
