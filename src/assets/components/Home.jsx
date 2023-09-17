@@ -689,7 +689,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-20 sm:mb-1 sm:pb-0">
+      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-0 sm:mb-1 sm:pb-0 ">
         <label
           htmlFor="helper-text"
           className="block mb-2 text-sm font-bold text-black dark:text-black text-center"
@@ -700,8 +700,8 @@ const Home = () => {
           type="text"
           id="helper-text"
           aria-describedby="helper-text-explanation"
-          className="sub-heading text-center font-bold bg-blue-800 border border-gray-300 text-blue-800 text-sm rounded-2xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-white dark:border-black dark:placeholder-red-300 dark:blue-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Search your question... (eg. OOPS-L3-Q2)"
+          className="sub-heading text-center font-bold bg-blue-800 border border-gray-300 text-blue-800 text-sm rounded-2xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 sm:placeholder:text-medium placeholder:text-xs  dark:bg-white dark:border-black dark:placeholder-red-300 dark:blue-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="(eg. OOPS-L3-Q2)"
           onChange={(e) => {
             const newSearch = e.target.value.toUpperCase();
             setSearch(newSearch);

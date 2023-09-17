@@ -34,9 +34,14 @@ export default function Modal() {
                 {/*body*/}
                 <div className="relative px-6 flex-auto">
                   <p className="my-0 text-center text-gray-900 md:text-base text-sm leading-relaxed">
-                    All lab acronyms: DS, OOPS, DAA, DBS, ML, IDA <br /> You
-                    can search for a lab question by its acronym, lab number and question number. <br />For
-                    example, OOPS-L4-Q1 will search for the first question of fourth lab of Object Oriented Programming.
+                    All lab acronyms:{" "}
+                    <mark className="px-1 text-white bg-gray-900 rounded-lg dark:bg-gray-900">
+                      DS, OOPS, DAA, DBS, ML, IDA{" "}
+                    </mark>
+                    <br /> You can search for a lab question by its acronym, lab
+                    number and question number. <br />
+                    For example, OOPS-L4-Q1 will search for the first question
+                    of fourth lab of Object Oriented Programming.
                   </p>
                 </div>
                 {/*footer*/}
@@ -48,7 +53,6 @@ export default function Modal() {
                   >
                     Close
                   </button>
-                  
                 </div>
               </div>
             </div>

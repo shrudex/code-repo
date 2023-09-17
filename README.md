@@ -78,11 +78,11 @@ CodeRepo uses highlightJS to apply syntax highlighting to code snippets, making 
 
 Here are some screenshots of CodeRepo to give you a glimpse of the user interface:
 
-![Alt text](image.png) 
+![Alt text](./image.png) 
 
-![Alt text](image-1.png)
+![Alt text](./image-1.png)
 
-![Alt text](image-2.png)
+![Alt text](./image-2.png)
 
 ## GitHub Integration
 
