@@ -697,7 +697,7 @@ const Home = () => {
           className="sub-heading text-center font-bold bg-blue-800 border border-gray-300 text-blue-800 text-sm rounded-2xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-white dark:border-black dark:placeholder-red-300 dark:blue-800 dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Search your question... (eg. OOPS-L3-Q2)"
           onChange={(e) => {
-            const newSearch = e.target.value;
+            const newSearch = e.target.value.toUpperCase();
             setSearch(newSearch);
             console.log(newSearch);
 
