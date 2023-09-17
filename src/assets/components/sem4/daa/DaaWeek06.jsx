@@ -12,9 +12,9 @@ const DaaWeek06 = () => {
     ques: ["Quick Sort Technique", "Merge Sort Technique", "Binary Search"],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ1%2-%20Quick%20Sort.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ2%2-%20Merge%20Sort.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ3%2-%20Binary%20Search.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ1%20-%20QuickSort.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ2%20-%20Merge%20Sort.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2006%2FQ3%20-%20Binary%20Search.md/raw?ref=main",
     ],
     id: ["DAA-L6-Q1", "DAA-L6-Q2", "DAA-L6-Q3"],
   };

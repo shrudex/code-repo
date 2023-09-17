@@ -16,9 +16,9 @@ const DaaWeek09 = () => {
     ],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009/Q1%20-%20Comparison%20Counting%20Algorithm.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009/Q2%20-%20Horspool's%20Algorithm%20-%20String%20Matching.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009/Q3%20-%20Hash%20Table.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009%2FQ1%20-%20Comparison%20Counting%20Algorithm.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009%2FQ2%20-%20Horspool's%20Algorithm%20-%20String%20Matching.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2009%2FQ3%20-%20Hash%20Table.md/raw?ref=main",
     ],
     id: ["DAA-L9-Q1", "DAA-L9-Q2", "DAA-L9-Q3"],
   };

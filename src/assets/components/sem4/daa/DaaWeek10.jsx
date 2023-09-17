@@ -18,11 +18,11 @@ const DaaWeek10 = () => {
     ],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010/Q1%20-%20Binomial%20Coefficient.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010/Q1%20-%20Heap%20Sort.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010/Q2%20-%20Transitive%20Closure.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010/Q3%20-%20All%20Pairs%20Shortest%20Paths.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010/Q4%20-%20Knapsack%20Problem.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010%2FQ1%20-%20Binomial%20Coefficient.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010%2FQ1%20-%20Heap%20Sort.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010%2FQ2%20-%20Transitive%20Closure.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010%2FQ3%20-%20All%20Pairs%20Shortest%20Paths.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2010%2FQ4%20-%20Knapsack%20Problem.md/raw?ref=main",
     ],
     id: ["DAA-L10-Q1", "DAA-L10-Q2", "DAA-L10-Q3", "DAA-L10-Q4", "DAA-L10-Q5"],
   };

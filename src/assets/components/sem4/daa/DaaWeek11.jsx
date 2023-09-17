@@ -16,9 +16,9 @@ const DaaWeek11 = () => {
     ],
     desc: [" ", " ", " ", " "],
     links: [
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011/Q1%20-%20Prim's%20Algo.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011/Q2%20-%20Kruskal's%20Algo.md/raw?ref=main",
-      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011/Q3%20-%20Dijkstra's%20Algo.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011%2FQ1%20-%20Prim's%20Algo.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011%2FQ2%20-%20Kruskal's%20Algo.md/raw?ref=main",
+      "https://gitlab.com/api/v4/projects/50442481/repository/files/DAA%20Lab%2FWeek%2011%2FQ3%20-%20Dijkstra's%20Algo.md/raw?ref=main",
     ],
     id: ["DAA-L11-Q1", "DAA-L11-Q2", "DAA-L11-Q3"],
   };
