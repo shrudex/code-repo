@@ -1,9 +1,15 @@
+'use client';
+
+import { Button, Modal } from 'flowbite-react';
+
+
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import hljs from "highlight.js";
 import "highlight.js/styles/default.css"; // choose a style
 import CodeBlock from "./QuestionCard";
 import QuestionCard from "./QuestionCard";
+import DismissableModal from './Modal';
 const Home = () => {
   const labID = [
     {
@@ -683,7 +689,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-20 sm:mb-24">
+      <div className=" search-code w-8/12 justify-center mx-auto mt-10 mb-20 sm:mb-1 sm:pb-0">
         <label
           htmlFor="helper-text"
           className="block mb-2 text-sm font-bold text-black dark:text-black text-center"
@@ -723,6 +729,9 @@ const Home = () => {
         >
           Streamline Your Learning with Easy Access to DSE LAB Program Codes.
         </p>
+      </div>
+      <div className="search-methods flex items-center justify-center mb-16">
+        <DismissableModal/>
       </div>
       <div className="answer-lab flex items-center justify-center ">
         {ques !== undefined && <QuestionCard ques={ques} link={link} />}
