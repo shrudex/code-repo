@@ -44,7 +44,7 @@ const About = () => {
       </div>
       <div className="flex justify-center mb-1 items-center about-card">
         <a
-          href="#"
+          href="https://github.com/shrudex"
           className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         >
           <img
