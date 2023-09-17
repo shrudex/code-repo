@@ -74,6 +74,18 @@ import DbsWeek09 from "./assets/components/sem4/dbs/DbsWeek09";
 import DbsWeek10 from "./assets/components/sem4/dbs/DbsWeek10";
 import DbsWeek11 from "./assets/components/sem4/dbs/DbsWeek11";
 
+import IdaWeek02 from "./assets/components/sem3/ida/IdaWeek02";
+import IdaWeek01 from "./assets/components/sem3/ida/IdaWeek01";
+import IdaWeek03 from "./assets/components/sem3/ida/IdaWeek03";
+import IdaWeek04 from "./assets/components/sem3/ida/IdaWeek04";
+import IdaWeek05 from "./assets/components/sem3/ida/IdaWeek05";
+import IdaWeek06 from "./assets/components/sem3/ida/IdaWeek06";
+import IdaWeek07 from "./assets/components/sem3/ida/IdaWeek07";
+import IdaWeek08 from "./assets/components/sem3/ida/IdaWeek08";
+import IdaWeek09 from "./assets/components/sem3/ida/IdaWeek09";
+import IdaWeek10 from "./assets/components/sem3/ida/IdaWeek10";
+import IdaWeek11 from "./assets/components/sem3/ida/IdaWeek11";
+
 function App() {
   return (
     <div
@@ -102,8 +114,8 @@ function App() {
         <Route path="/os" element={<OS />} />
         <Route path="/wt" element={<WT />} />
 
-        <Route path="/questions" element={<WT />} />
-        <Route path="/answers" element={<WT />} />
+        <Route path="/questions" element={<Questions />} />
+        <Route path="/answers" element={<Answers />} />
 
         <Route path="/ds/w1" element={<DsWeek01 />} />
         <Route path="/ds/w2" element={<DsWeek02 />} />
@@ -128,6 +140,18 @@ function App() {
         <Route path="/oops/w9" element={<OopsWeek09 />} />
         <Route path="/oops/w10" element={<OopsWeek10 />} />
         <Route path="/oops/w11" element={<OopsWeek11 />} />
+
+        <Route path="/ida/w1" element={<IdaWeek01 />} />
+        <Route path="/ida/w2" element={<IdaWeek02 />} />
+        <Route path="/ida/w3" element={<IdaWeek03 />} />
+        <Route path="/ida/w4" element={<IdaWeek04 />} />
+        <Route path="/ida/w5" element={<IdaWeek05 />} />
+        <Route path="/ida/w6" element={<IdaWeek06 />} />
+        <Route path="/ida/w7" element={<IdaWeek07 />} />
+        <Route path="/ida/w8" element={<IdaWeek08 />} />
+        <Route path="/ida/w9" element={<IdaWeek09 />} />
+        <Route path="/ida/w10" element={<IdaWeek10 />} />
+        <Route path="/ida/w11" element={<IdaWeek11 />} />
 
         <Route path="/daa/w1" element={<DaaWeek01 />} />
         <Route path="/daa/w2" element={<DaaWeek02 />} />
