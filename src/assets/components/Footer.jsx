@@ -6,15 +6,8 @@ const Footer = () => {
     <footer className=" bg-white shadow dark:bg-gray-900 relative top-8 w-full h-60 mb-9">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <NavLink
-            to="/"
-            className="flex items-center mb-4 sm:mb-0"
-          >
-            <img
-              src="./think.png"
-              className="h-8 mr-3"
-              alt="CodeRepo"
-            />
+          <NavLink to="/" className="flex items-center mb-4 sm:mb-0">
+            <img src="./think.png" className="h-8 mr-3" alt="CodeRepo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               CodeRepo
             </span>
@@ -26,17 +19,29 @@ const Footer = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="https://www.linkedin.com/in/codeshubh/" target="_blank" className="mr-4 hover:underline md:mr-6">
+              <NavLink
+                to="https://www.linkedin.com/in/codeshubh/"
+                target="_blank"
+                className="mr-4 hover:underline md:mr-6"
+              >
                 LinkedIn
               </NavLink>
             </li>
             <li>
-              <NavLink to="https://github.com/shrudex" target="_blank" className="mr-4 hover:underline md:mr-6 ">
+              <NavLink
+                to="https://github.com/shrudex"
+                target="_blank"
+                className="mr-4 hover:underline md:mr-6 "
+              >
                 GitHub
               </NavLink>
             </li>
             <li>
-              <NavLink to="https://leetcode.com/shrudex/" target="_blank" className="hover:underline">
+              <NavLink
+                to="https://leetcode.com/shrudex/"
+                target="_blank"
+                className="hover:underline"
+              >
                 LeetCode
               </NavLink>
             </li>
@@ -45,7 +50,7 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
+          <a href="https://github.com/shrudex" className="hover:underline">
             Shubh Sinha™
           </a>
           . All Rights Reserved.
