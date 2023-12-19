@@ -64,10 +64,10 @@ const Explore = () => {
   ];
   return (
     <div className="h-auto bg-red-">
-      <div className="items-center flex justify-center text-center h-max explore-breadcrumb dark:text-white text-white">
+      <div className="items-center flex justify-center text-center h-max explore-breadcrumb !text-white text-white">
         <Breadcrumb
           aria-label="Solid background breadcrumb example"
-          className="bg-gray-50 px-5 py-3 rounded-full dark:bg-gray-900 mt-1 text-white"
+          className="bg-gray-50 px-5 py-3 rounded-full !bg-gray-900 mt-1 text-white"
         >
           <Breadcrumb.Item href="/" icon={HiHome}>
             <p>Home</p>

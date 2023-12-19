@@ -35,7 +35,7 @@ export default function Modal() {
                 <div className="relative px-6 flex-auto">
                   <p className="my-0 text-center text-gray-900 md:text-base text-sm leading-relaxed">
                     All lab acronyms:{" "}
-                    <mark className="px-1 text-white bg-gray-900 rounded-lg dark:bg-gray-900">
+                    <mark className="px-1 text-white bg-gray-900 rounded-lg !bg-gray-900">
                       DS, OOPS, DAA, DBS, ML, IDA{" "}
                     </mark>
                     <br /> You can search for a lab question by its acronym, lab

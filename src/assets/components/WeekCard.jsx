@@ -31,7 +31,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2 sm:w-full">
           <NavLink
             to={urls[0]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣1️⃣</p>
             <span className="w-full text-white">Week 01</span>
@@ -56,7 +56,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[1]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣2️⃣</p>
             <span className="w-full text-white">Week 02</span>
@@ -80,7 +80,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[2]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣3️⃣</p>
             <span className="w-full text-white">Week 03</span>
@@ -104,7 +104,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[3]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣4️⃣</p>
             <span className="w-full text-white">Week 04</span>
@@ -128,7 +128,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[4]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣5️⃣</p>
             <span className="w-full text-white">Week 05</span>
@@ -152,7 +152,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[5]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣6️⃣</p>
             <span className="w-full text-white">Week 06</span>
@@ -176,7 +176,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[6]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣7️⃣</p>
             <span className="w-full text-white">Week 07</span>
@@ -200,7 +200,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[7]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣8️⃣</p>
             <span className="w-full text-white">Week 08</span>
@@ -224,7 +224,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[8]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>0️⃣9️⃣</p>
             <span className="w-full text-white">Week 09</span>
@@ -248,7 +248,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around mb-2">
           <NavLink
             to={urls[9]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>1️⃣0️⃣</p>
             <span className="w-full text-white">Week 10</span>
@@ -272,7 +272,7 @@ export default function WeekCard({ n, sh, questions }) {
         <div className="week-div flex justify-around -mb-3">
           <NavLink
             to={urls[10]}
-            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+            className="inline-flex h-auto items-center w-3/12 justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 !text-gray-400 !bg-gray-800 !hover:bg-gray-700 !hover:text-white"
           >
             <p>1️⃣1️⃣</p>
             <span className="w-full text-white">Week 11</span>

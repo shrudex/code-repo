@@ -43,10 +43,10 @@ const IdaWeek08 = () => {
 
   return (
     <div>
-      <div className="items-center flex justify-center text-center explore-breadcrumb dark:text-white text-white">
+      <div className="items-center flex justify-center text-center explore-breadcrumb !text-white text-white">
         <Breadcrumb
           aria-label="Solid background breadcrumb example"
-          className="bg-gray-50 px-5 py-3 rounded-full dark:bg-gray-900 mt-1 text-white"
+          className="bg-gray-50 px-5 py-3 rounded-full !bg-gray-900 mt-1 text-white"
         >
           <Breadcrumb.Item href="/" icon={HiHome}>
             <p>Home</p>
@@ -73,15 +73,15 @@ const IdaWeek08 = () => {
                 <Accordion.Content className="rounded-xl  !bg-transparent">
                   <pre className="code overflow-x-auto scrolling-touch">
                     {" "}
-                    <code className="mb-2 text-black dark:text-black bg-transparent max-w-md ht-text select-text">
+                    <code className="mb-2 text-black !text-black bg-transparent max-w-md ht-text select-text">
                       {fileContents[index]}{" "}
                     </code>
                   </pre>
-                  <p className="text-gray-500 dark:text-black text-base ">
+                  <p className="text-gray-500 !text-black text-base ">
                     <p>
                       Check out complete code in a new tab&nbsp;
                       <a
-                        className="text-cyan-600 hover:underline dark:text-blue-600 font-medium"
+                        className="text-cyan-600 hover:underline !text-blue-600 font-medium"
                         href={qq.links[index]}
                       >
                         by clicking here

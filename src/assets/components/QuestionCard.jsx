@@ -35,15 +35,15 @@ const QuestionCard = ({ ques, link }) => {
             <Accordion.Content className="rounded-xl  !bg-transparent">
               <pre className="code overflow-x-auto scrolling-touch">
                 {" "}
-                <code className="mb-2 text-black dark:text-black bg-transparent max-w-md ht-text select-text">
+                <code className="mb-2 text-black !text-black bg-transparent max-w-md ht-text select-text">
                   {ans}
                 </code>
               </pre>
-              <p className="text-gray-500 dark:text-black text-base ">
+              <p className="text-gray-500 !text-black text-base ">
                 <p>
                   Check out complete code in a new tab&nbsp;
                   <a
-                    className="text-cyan-600 hover:underline dark:text-blue-600 font-medium"
+                    className="text-cyan-600 hover:underline !text-blue-600 font-medium"
                     href={link}
                     target="_blank"
                     rel="noreferrer"
